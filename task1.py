@@ -1,10 +1,12 @@
-# The first task
-main = 'Hello World'
+# task
 
-print(main)
+list1 = []
+summa = 0
 
-name1 = (input('Введите ваше имя: '))
-
-if not (name1 == ''):
-    print(name1, 'Рад вас приветствовать!')
-
+for i in range(1,6):
+    print ('Ввeдите', str(i), 'число:' )
+    main = int(input())
+    list1.append(main)
+    summa = summa + main
+# print(list1)
+print (summa)
